@@ -3,8 +3,6 @@ import os
 pygame.font.init()
 pygame.mixer.init()
 
-from sqlalchemy import false
-
 #Creating a window with defined width and height
 WIDTH, HEIGHT = 900, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
